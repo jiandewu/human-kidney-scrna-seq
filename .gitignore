@@ -1,0 +1,46 @@
+# R session and IDE files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded 10x Genomics inputs and metadata
+data/
+raw_data/
+input/
+metadata/
+clinical/
+GSM*/
+*.mtx
+*.mtx.gz
+*.h5
+*.csv
+*.tsv
+*.txt
+
+# Generated Seurat objects and results
+results/
+figures/
+plots/
+*.rds
+*.RDS
+*.rdata
+*.RData
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Manuscripts and rendered reports
+manuscript/
+reports/
+*.docx
+*.html
+*.nb.html

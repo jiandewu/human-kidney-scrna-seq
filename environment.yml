@@ -1,0 +1,10 @@
+name: human-kidney-scrna-seq
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.4
+  - r-ggplot2
+  - r-harmony
+  - r-patchwork
+  - r-seurat
